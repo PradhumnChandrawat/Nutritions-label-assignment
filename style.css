@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1rem;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 19.5rem;
+  margin: 40px auto;
+  padding: 0 7px;
+  border: 3px solid black;
+}
+.main-heading {
+  text-align: center;
+  margin: 4px 0;
+  letter-spacing: 0.15px;
+  font-weight: 800;
+}
+.border {
+  border-bottom: 1px solid gray;
+  margin: 2px 0;
+}
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.head-pera {
+  font-weight: 800;
+}
+.border-bold {
+  background-color: black;
+  border: 0;
+  height: 10px;
+}
+.small-text {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.left-container p {
+  margin: -5px -2px;
+  font-size: 2em;
+  font-weight: 700;
+}
+.calories-info span {
+  margin: -7px -2px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+.border-small {
+  background-color: black;
+  border: 0;
+  height: 5px;
+}
+.daily-P {
+  font-weight: 800;
+  justify-content: flex-end;
+}
+.daily-names {
+  font-weight: 800;
+  padding-right: 4px;
+}
+.Dietary {
+  margin-left: 1em;
+}
+.sugar {
+  margin-left: 2em;
+}
+.added-sugar {
+  margin-left: 2em;
+}
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
+  padding: 0px 8px;
+  text-indent: -8px;
+}
